@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+html, body{
+   font-family: "Cherry Cream Soda", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://wallpapercave.com/wp/wp5488882.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 57vh;
+    width: 80vh;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 1px 5px 20px 5px;
+    color: black;
+    border: none;
+}
+
+h2{
+    margin: 3vh 11vw;
+}
+
+#input{
+    width: 29vw;
+  height: 6vh;
+  margin-left: 6vw;
+  margin-top: 1vh;
+  outline: none;
+  border: none;
+  padding-left: 30px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.length{
+    display: flex;
+    margin-left: 7.5vw;
+    align-items: center;
+  margin-top: 1.5vh;
+  cursor: pointer;
+}
+.length p{
+    font-size: 25px;
+}
+.b{
+    display: flex;
+    align-items: center;
+    font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 2vw;
+}
+.b p{
+    margin-left: 5px;
+}
+.btn-all{
+    height: 4vh;
+    width: 10vw;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+span{
+    border: none;
+    outline: none;
+    margin-left: 6px;
+    height: 2.5vh;
+    width: 2vw;
+    text-align: center;
+    background-color: white;
+}
+#scroll{
+    width: 26vw;
+  margin-left: 7.5vw;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.btn{
+    margin-top: 3vh;
+}
+.clear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    height: 5vh;
+    width: 4vw;
+    position: relative;
+    left: 355px;
+    top: -24px;
+  cursor: pointer;
+}
+.copy{
+    height: 5vh;
+    width: 4vw;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    left: 187px;
+  top: 14px;
+  cursor: pointer;
+}
+.clear p ,.copy p{
+    font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    font-size: 13px;
+}
+@media (max-width:600px) {
+    .main{
+        background-image: url(https://wallpapercave.com/wp/wp5467205.jpg);
+    }
+    .container{
+        height: 55vh;
+        width: 80vw;
+    }
+    h2{
+        font-size: 18.53px;
+    }
+    #input{
+        width: 70vw;
+        font-size: 15px;
+    }
+    #scroll{
+        width: 60vw;
+        margin-left: 10vw;
+    }
+    span{
+        width: 7vw;
+    }
+    
+    .length p{
+        font-size: 20px;
+    }
+    .copy{
+        width: 10vw;
+        left: 60px;
+    }
+    .clear{
+        left: 190px;
+        width: 10vw;
+    }
+    .btn{
+        margin-top: 2vh;
+    }
+    #btn1{
+        height: 5vh;
+        width: 90px;
+    }
+    #btn3{
+        height: 5vh;
+        width: 120px;
+    }
+    #btn2{
+        height: 5vh;
+        width: 95px;
+    }
+    .b p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
